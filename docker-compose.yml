@@ -1,4 +1,9 @@
 version: '3'
 services:
-        zeromq:
-                build: .
+        client:
+                build: client
+        server:
+                build: server
+                ports:
+                        - "5555:5555/tcp"
+

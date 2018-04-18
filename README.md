@@ -2,4 +2,5 @@
 
 Dockerfile build .
 
-docker-compose run zeromq
+docker-compose run zerotest
+docker-compose build

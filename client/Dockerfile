@@ -10,4 +10,4 @@ ADD . /
 
 #CMD echo "Hello world!"
 CMD  ERL_LIBS="/erlzmq2" erl
-CMD bash  test.sh
+CMD bash  client.sh
