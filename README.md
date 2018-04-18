@@ -1,11 +1,4 @@
-
-
-Dockerfile build .
-
-docker-compose run zerotest
-docker-compose build
-
-# To run test:
+# Running
 
 ```bash
 alias dc="docker-compose"
